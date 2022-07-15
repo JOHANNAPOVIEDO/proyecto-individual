@@ -1,0 +1,14 @@
+#card{
+    width: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+#card{
+    width: 200px;
+}
+}
+@media only screen and (max-width: 400px) {
+#card{
+    width: 170px;
+}
+}

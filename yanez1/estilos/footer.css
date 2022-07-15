@@ -1,0 +1,11 @@
+#footer {
+    background-color: #b36b90;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    height: auto;
+}
+
+#footer a {
+    color: #3B3B58;
+    text-decoration: none;
+}

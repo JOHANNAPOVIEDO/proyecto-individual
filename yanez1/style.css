@@ -1,0 +1,65 @@
+
+#body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#carousel {
+    position: relative;
+}
+
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+.carousel-item img{
+    height: 600px;
+}
+@media only screen and (max-width: 800px) {
+    .carousel-item img{
+        height: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .carousel-item img{
+        height: 200px;
+    }
+  }
+
+.card-header img{
+    width: 250px;
+    height: 200px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .overlay a button{
+    background-color: #7A5980;
+    color: white;
+  }
+  
+  .card-header:hover .overlay {
+    opacity: 1;
+  }

@@ -1,0 +1,21 @@
+H1{
+    color: white;
+    font-weight: bold;
+}
+.card{
+    background-color: #7A5980;
+    width: 750px;
+    
+}
+#card{
+    left: 5%;
+    right: 5%;
+    width: 690px;
+    text-align: justify;
+    font-weight: bold;
+    color: white;
+}
+ .card-text{
+    color: white;
+    font-weight: bold;
+ }
